@@ -18,14 +18,14 @@ email: yuri.falbu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The main reason that made me have this effort was to improve the dissemination of Applied Mathematics.
   So, enjoy it!
-baseurl: /mybrotheriswrong # the subpath of your site, e.g. /blog
+baseurl: "yuri_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FalbuYuri
 github_username:  Yuri-Albuquerque
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
