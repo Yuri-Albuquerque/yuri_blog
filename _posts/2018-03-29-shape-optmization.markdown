@@ -1,25 +1,12 @@
 ---
 layout: post
-title:  "Notes on Shape Optimization"
+title:  "Response of the electromagnetic field in conductive media"
 date:   2018-03-29 17:37:18 -0300
-categories: Shape optimization ssensitivity analysis
+categories: Electromagnetic fields Semiconductors Diffusion
 ---
-You will find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+We introduce a new and potentially useful method for computing electromagnetic \(EM\) responses of arbitrary conductivity distributions in the earth. The diffusive EM field is known to have a unique integral representation in terms of a fictitious wave field that satisfies a wave equation. We show that this integral transform can be extended to include vector fields. Our algorithm takes advantage of this relationship between the wave field and the actual EM field. Specifically, numerical computation is carried out for the wave field, and the result is transformed back to the EM field in the time domain.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+The proposed approach has been successfully demonstrated using two-
+dimensional \(2-D\) models. The appropriate TE-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary q domain, where q is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit q-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain. In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the q domain.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+These coupled equations are slightly modified and then cast into a "symmetric" and "divergence-free" form. We show that it is to this particular form of equations that numerical schemes developed for solving wave equations can be applied efficiently.
