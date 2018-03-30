@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Response of the electromagnetic field in conductive media"
 date:   2018-03-29 17:37:18 -0300
 categories: Electromagnetic fields Semiconductors Diffusion
