@@ -8,7 +8,7 @@ We introduce a new and useful method for computing electromagnetic \(EM\) respon
 
 The proposed approach has been successfully demonstrated using two-dimensional \(2-D\) models. The appropriate TE-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary q domain, where q is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit q-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented.
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/VBdzzYzJePM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="440" height="390" src="https://www.youtube.com/embed/VBdzzYzJePM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain. In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \(q\) domain.These coupled equations are slightly modified and then cast into a "symmetric" and "divergence-free" form. We show that it is to this particular form of equations that numerical schemes developed for solving wave equations can be applied efficiently.
 
