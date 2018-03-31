@@ -23,6 +23,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FalbuYuri
 github_username:  Yuri-Albuquerque
 show_downloads: false
+sitemap: true
 # Build settings
 markdown: redcarpet
 theme: jekyll-theme-leap-day
