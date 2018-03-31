@@ -25,7 +25,7 @@ github_username:  Yuri-Albuquerque
 show_downloads: false
 sitemap: true
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
