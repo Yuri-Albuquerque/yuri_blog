@@ -4,6 +4,8 @@ title: "Response of the electromagnetic field in conductive media"
 date:  2018-03-29 17:37:18 -0300
 categories: electromagnetic
 ---
+# EM-Field imaging methods
+
 We introduce a new and useful method for computing electromagnetic \(EM\) responses of arbitrary conductivity distributions in the earth. The diffusive \(EM\) field is known to have a unique integral representation in terms of a fictitious wave field that satisfies a wave equation. We show that this integral transform can be extended to include vector fields. Our algorithm takes advantage of this relationship between the wave field and the actual EM field. Specifically, numerical computation is carried out for the wave field, and the result is transformed back to the \(EM\) field in the time domain.
 
 The proposed approach has been successfully demonstrated using two-dimensional \(2-D\) models. The appropriate TE-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary q domain, where q is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit q-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented.
