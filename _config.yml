@@ -22,7 +22,7 @@ baseurl: "yuri_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FalbuYuri
 github_username:  Yuri-Albuquerque
-
+show_downloads: false
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-leap-day
