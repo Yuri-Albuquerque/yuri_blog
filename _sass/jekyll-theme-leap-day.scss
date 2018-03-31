@@ -271,7 +271,7 @@ header {
 }
 
 section {
-  width:790px;
+  width:890px;
   padding: 30px 30px 50px 30px;
   margin: 20px 0;
   margin-top: 190px;
@@ -513,4 +513,9 @@ footer {
     bottom:auto;
     width:auto;
   }
+}
+.center-image
+{
+    margin: 0 auto;
+    display: block;
 }

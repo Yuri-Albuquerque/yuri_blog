@@ -4,13 +4,17 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-# First things First!
+# \\(1^{st}\\) things First!
 
-Hello! I am a professional mathematician and I like to share what I am discovering. So I hope this blog helps to understand and divulge my discoveries. Not everything I've published here is exactly my own work. Many things are disclosures from other researchers and papers that I am interested in.
+![Books](images/books.jpg){: .center-image }
 
-The English language is not my native language so I may have committed several gaffes while writing here. Feel free to email me if you see something strangely written! Please!
+Hello! I am PHD candidate in Applied Math and I'd like to share some of my work. So I hope this blog helps you to improve your knolege in some useful tools that are provide in math.
 
-In addition, I hope you like the texts released!
+Not everything I've published here is exactly my own work. Many things are progress from other researchers and papers that I am interested in.
+
+English language is not my native language so may I have committed several mistakes while writing here. Feel free to email me if you see something strangely written! Please!
+
+Anyway, I hope you like the texts!
 
 ---
 ## EM-Field imaging methods
@@ -22,5 +26,4 @@ The proposed approach has been successfully demonstrated using two-dimensional \
 <iframe width="440" height="390" src="https://www.youtube.com/embed/VBdzzYzJePM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain. In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \(q\) domain.These coupled equations are slightly modified and then cast into a "symmetric" and "divergence-free" form. We show that it is to this particular form of equations that numerical schemes developed for solving wave equations can be applied efficiently.\\(a^2 + b^2 = c^2\\)
-
 \\[\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}\\]
