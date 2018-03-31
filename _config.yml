@@ -24,7 +24,7 @@ twitter_username: FalbuYuri
 github_username:  Yuri-Albuquerque
 show_downloads: false
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
