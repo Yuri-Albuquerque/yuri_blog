@@ -23,4 +23,4 @@ The proposed approach has been successfully demonstrated using two-dimensional \
 
 The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain. In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \(q\) domain.These coupled equations are slightly modified and then cast into a "symmetric" and "divergence-free" form. We show that it is to this particular form of equations that numerical schemes developed for solving wave equations can be applied efficiently.
 
-\delta_s = \sqrt{\frac{2}{\omega\mu\sigma}}
+$\delta_s = \sqrt{\frac{2}{\omega\mu\sigma}}$
