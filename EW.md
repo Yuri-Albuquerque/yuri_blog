@@ -4,12 +4,12 @@ layout: default
 # Explaining the formulas here !!
 
 
-Texto Texto ... 
+Texto Texto ...
 
 
 
 
-<p style="text-align: center;">
+<p align="center">
   [Main][principal]
 </p>
 
