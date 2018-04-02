@@ -34,4 +34,4 @@ The video bellow is an instance of how electromagnetic data are collected in the
 
  In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \\(q\\) domain.These coupled equations are slightly modified and then cast into a symmetric and divergence-free form. One can show that, to this particular form of equations that numerical schemes developed for solving wave equations can be applied efficiently.
 
-[show me the math!](https://yuri-albuquerque.github.io/yuri_blog/post/EW.
+[show me the math!](https://yuri-albuquerque.github.io/yuri_blog/EW)
