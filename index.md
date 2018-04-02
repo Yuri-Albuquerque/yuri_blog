@@ -30,7 +30,9 @@ The proposed approach has been successfully demonstrated using two-dimensional \
 
 The video bellow is an instance of how electromagnetic data are collected in the seabed.
 
-<iframe width="440" height="390" src="https://www.youtube.com/embed/VBdzzYzJePM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<p align="center">
+  <iframe width="440" height="390" src="https://www.youtube.com/embed/VBdzzYzJePM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
  In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \\(q\\) domain.These coupled equations are slightly modified and then cast into a symmetric and divergence-free form. One can show that, to this particular form of equations that numerical schemes developed for solving wave equations can be applied efficiently.
 
