@@ -1,7 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
 # \\(1^{st}\\) things First!
@@ -48,6 +45,6 @@ For instance, observe the prototype bellow.
   <img src="images/onda.gif" width="280" height="200" />
 </p>
 
-This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4(\Omega m)^{-1}\\) immersed in a medium of electrical conductivity \\(\sigma = 0.1(\Omega m)^{-1}\\). The adopted model have a variation in the \\(x\\) position of ́\\(0 m\\) to  \\(500 m\\) and depth at the \\(z\\) position of \\(0 km\\) to \\(500 m\\). A circular cylinder centered at point \\(x = 250 m\\) and \\(z = 170 m\\), and the source of the pulse is located at \\((250 m, 0 m)\\). 
+This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4(\Omega m)^{-1}\\) immersed in a medium of electrical conductivity \\(\sigma = 0.1(\Omega m)^{-1}\\). The adopted model have a variation in the \\(x\\) position of ́\\(0 m\\) to  \\(500 m\\) and depth at the \\(z\\) position of \\(0 m\\) to \\(500 m\\). A circular cylinder centered at point \\(x = 250 m\\) and \\(z = 170 m\\), and the source of the pulse is located at \\((250 m, 0 m)\\).
 
 [show me the math!](https://yuri-albuquerque.github.io/yuri_blog/EW)

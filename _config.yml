@@ -26,6 +26,7 @@ sitemap: true
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-leap-day
+google_analytics: yuri albuquerque applied math electromagnetic image 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
