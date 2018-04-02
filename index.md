@@ -19,7 +19,7 @@ Anyway, I hope you like the texts!
 ---
 ## The only abstract math is the one you didn't understand yet.
 
-In this article, I want to introduce to the reader a new and useful method for computing electromagnetic \\(EM\\) responses of arbitrary conductivity distributions in the earth. I worked with this methods in my masters degree, and this allowed me to understand deeply some fields of study like physical-mathematics, numerical analysis and functional analysis.
+In this article, one can introduce to the reader a new and useful method for computing electromagnetic \\(EM\\) responses of arbitrary conductivity distributions in the earth. I worked with this methods in my masters degree, and this allowed me to understand deeply some fields of study like physical-mathematics, numerical analysis and functional analysis.
 
 #### EM-Field imaging methods
 
