@@ -6,7 +6,9 @@ layout: default
 ---
 # \\(1^{st}\\) things First!
 
-![Books](images/books.jpg){: .center-image }
+<p align="center">
+  <img src="images/books.jpg" width="280" height="200" />
+</p>
 
 Hello! I am PHD candidate in Applied Math and I'd like to share some of my work. So I hope this blog helps you to improve your knolege in some useful tools that are provide in math.
 
@@ -31,9 +33,22 @@ The proposed approach has been successfully demonstrated using two-dimensional \
 The video bellow is an instance of how electromagnetic data are collected in the seabed.
 
 <p align="center">
-  <iframe width="440" height="390" src="https://www.youtube.com/embed/VBdzzYzJePM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="280" height="200" src="https://www.youtube.com/embed/VBdzzYzJePM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </p>
 
- In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \\(q\\) domain.These coupled equations are slightly modified and then cast into a symmetric and divergence-free form. One can show that, to this particular form of equations that numerical schemes developed for solving wave equations can be applied efficiently.
+ In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \\(q\\) domain.These coupled equations are slightly modified and then cast  equations that numerical schemes developed for solving wave equations can be applied efficiently.
+
+ ##### How it works
+
+ After mapping the resistivity characteristics of the medium and collecting the data of the electromagnetic resistivity, one can calculate the relation between the
+\\ (EM \\) - field and wave and use finite differences to calculate the responses of artificial waves with collected resistivity data. Getting the image of substructures in layers of the earth.
+
+For instance, observe the prototype bellow.
+
+<p align="center">
+  <img src="images/onda.gif" width="280" height="200" />
+</p>
+
+This image shows a circular cylinder of electrical conductivity \\(\sigma 0.4(\Omega m)^{-1}\\) immersed in a medium of electrical conductivity \\(\sigma 0.1(\Omega m)^{-1}\\)
 
 [show me the math!](https://yuri-albuquerque.github.io/yuri_blog/EW)
