@@ -38,10 +38,9 @@ The video bellow is an instance of how electromagnetic data are collected in the
 
  In this approach, Maxwell’s equations in the time domain are first transformed into a system of coupled first- order wave equations in the \\(q\\) domain.These coupled equations are slightly modified and then cast  equations that numerical schemes developed for solving wave equations can be applied efficiently.
 
- ##### How it works
+##### How it works
 
- After mapping the resistivity characteristics of the medium and collecting the data of the electromagnetic resistivity, one can calculate the relation between the
-\\ (EM \\) - field and wave and use finite differences to calculate the responses of artificial waves with collected resistivity data. Getting the image of substructures in layers of the earth.
+ After mapping the resistivity characteristics of the medium and collecting the data of the electromagnetic resistivity, one can calculate the relation between the \\(EM \\) - field and wave and use finite differences to calculate the responses of artificial waves with collected resistivity data. Getting the image of substructures in layers of the earth.
 
 For instance, observe the prototype bellow.
 
@@ -49,6 +48,6 @@ For instance, observe the prototype bellow.
   <img src="images/onda.gif" width="280" height="200" />
 </p>
 
-This image shows a circular cylinder of electrical conductivity \\(\sigma 0.4(\Omega m)^{-1}\\) immersed in a medium of electrical conductivity \\(\sigma 0.1(\Omega m)^{-1}\\)
+This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4(\Omega m)^{-1}\\) immersed in a medium of electrical conductivity \\(\sigma = 0.1(\Omega m)^{-1}\\). The adopted model have a variation in the \\(x\\) position of ́\\(-3 km\\) to  \\(3 km\\) and depth at the \\(z\\) position of \\(0 km\\) to \\(3 km\\). A circular cylinder centered at point \\(x = 0 km\\) and \\(z = 1 km\\), and the source of the pulse is located at the origin. 
 
 [show me the math!](https://yuri-albuquerque.github.io/yuri_blog/EW)
