@@ -7,7 +7,7 @@ layout: default
   <img src="images/books.jpg" width="280" height="200" />
 </p>
 
-Hello! I am PHD candidate in Applied Math and I'd like to share some of my work. So I hope this blog helps you to improve your knolege in some useful tools that are provide in math.
+Hello! I am PHD candidate in Applied Math and I'd like to share some of my work. So I hope this blog helps you to improve your knowledge in some useful tools that are provide in math.
 
 Not everything I've published here is exactly my own work. Many things are progress from other researchers and papers that I am interested in.
 
@@ -24,7 +24,7 @@ In this article, one can introduce to the reader a new and useful method for com
 
  The diffusive \\(EM\\) field is known to have a unique integral representation in terms of a fictitious wave field that satisfies a wave equation. One can show that this integral transform can be extended to include vector fields. The algorithm that I presented in my master's degree takes advantage of the relationship between the wave field and the actual \\(EM\\) field. Specifically, numerical computation is carried out for the wave field, and the result is transformed back to the \\(EM\\) field in the time domain.
 
-The proposed approach has been successfully demonstrated using two-dimensional \\(2-D\\) models. The appropriate \\(TE\\)-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary \\(q\\) domain, wich is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit \\(q\\)-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain.
+The proposed approach has been successfully demonstrated using two-dimensional \\(2-D\\) models. The appropriate \\(TE\\)-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary \\(q\\) domain, which is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit \\(q\\)-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain.
 
 
 The video bellow is an instance of how electromagnetic data are collected in the seabed.
