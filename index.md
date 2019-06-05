@@ -7,11 +7,10 @@ layout: default
   <img src="images/books.jpg" width="280" height="200" />
 </p>
 
-Hello! I am PHD candidate in Applied Math and I'd like to share some of my work. So I hope this blog helps you to improve your knowledge in some useful tools that are provide in math.
-
+Hello! I am PHD candidate in Applied Math and I'd like to share some of my work. So 
 Not everything I've published here is exactly my own work. Many things are progress from other researchers and papers that I am interested in.
-
-English language is not my native language so may I have committed several mistakes while writing here. Feel free to email me if you see something strangely written! Please!
+English language is not my native language so may I have committed several mistakes while writing here. 
+Feel free to send me an email, if you see something strangely written! Please!
 
 Anyway, I hope you like the texts!
 
