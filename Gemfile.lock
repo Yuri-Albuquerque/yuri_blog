@@ -246,6 +246,7 @@ DEPENDENCIES
   github-pages
   jekyll (>= 3.7.4)
   jekyll-feed (>= 0.6)
+  jekyll-sitemap
   jekyll-theme-leap-day (>= 0.1.0)
   nokogiri (>= 1.8.5)
   rubyzip (>= 1.2.2)
