@@ -59,4 +59,10 @@ For instance, observe the prototype bellow.
 
 This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4(\Omega m)^{-1}\\) immersed in a medium of electrical conductivity \\(\sigma = 0.1(\Omega m)^{-1}\\). The adopted model have a variation in the \\(x\\) position of ́\\(0 m\\) to  \\(500 m\\) and depth at the \\(z\\) position of \\(0 m\\) to \\(500 m\\). A circular cylinder centered at point \\(x = 250 m\\) and \\(z = 170 m\\), and the source of the pulse is located at \\((250 m, 0 m)\\).
 
+---
+---
+<h1 id='references'>References</h1>
+
+<p>Flanagan, D., &#38; Matsumoto, Y. (2008). <i>The Ruby Programming Language</i>. O&#8217;Reilly Media.</p>
+
 [show me the math!](https://yuri-albuquerque.github.io/yuri_blog/EW)
