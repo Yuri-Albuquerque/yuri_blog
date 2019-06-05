@@ -29,9 +29,9 @@ theme: jekyll-theme-leap-day
 google_analytics: yuri albuquerque applied math electromagnetic image 
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-redirect-from
-
+gems: - jekyll-sitemap
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
