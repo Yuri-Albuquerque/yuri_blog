@@ -36,7 +36,7 @@ where \\(\mathbf{c}(\mathbf{r},q) = \frac{1}{\sqrt{\mu\sigma(\mathbf{r})}}\\) an
 Although not easy, however, it is possible to obtain the following equivalence between these two fields,
 \begin{equation}\label{equiv}\mathbf{E}(\mathbf{r},t) = \frac{1}{2\sqrt{\pi t^3}}\int_0^{\infty} qe^{-\frac{q^2}{4t}}\mathbf{U}(\mathbf{r},q)\;dq\end{equation}
 
-The proposed approach has been successfully demonstrated using two-dimensional \\(2-D\\) models . The appropriate \\(TE\\)-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary \\(q\\) domain, which is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit \\(q\\)-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain.
+The proposed approach has been successfully demonstrated using two-dimensional \\(2-D\\) models {% cite ruby %}. The appropriate \\(TE\\)-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary \\(q\\) domain, which is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit \\(q\\)-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain.
 
 
 The video bellow is an instance of how electromagnetic data are collected in the seabed.
@@ -62,7 +62,7 @@ This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4
 ---
 ---
 <h1 id='references'>References</h1>
-
+<a href="#ruby">(Flanagan &amp; Matsumoto 2008; Shaughnessy 2013)</a>
 <p>Flanagan, D., &#38; Matsumoto, Y. (2008). <i>The Ruby Programming Language</i>. O&#8217;Reilly Media.</p>
 
 [show me the math!](https://yuri-albuquerque.github.io/yuri_blog/EW)
