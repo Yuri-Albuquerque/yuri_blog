@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# First things First!
+# First Things First!
 
 <p align="center">
   <img src="images/books.jpg" width="280" height="200" />
@@ -17,17 +17,17 @@ Anyway, I hope you like the texts! :blush:
 ###### Please remember that the only abstract math is the one you didn't understand yet. 
 
 ---
-#### Imaging methods with Electromagnetic data
+#### Imaging methods with Electromagnetic data through wave PDE
  
 The diffusive \\(EM\\) field is known to have a unique integral representation in terms of a fictitious wave field that satisfies a wave equation PDE. One can show that this integral transform can be extended to include vector fields. The algorithm that I presented in my master's degree takes advantage of the relationship between the wave field and the actual \\(EM\\) field. Specifically, numerical computation is carried out for the wave field, and the result is transformed back to the \\(EM\\) field in the time domain.
 
-The electric field \\(\mathbf{E}(\mathbf{r},t)\\) can be described through the equation 
+The electric field \\(\mathbf{E}(\mathbf{r},t)\\) in a homogeneous media,  can be described through the equation 
 
 \begin{align}\nabla \times \nabla \times \mathbf{E}(\mathbf{r},t) + \mu\sigma(\mathbf{r})\frac{\partial }{\partial t}\mathbf{E}(\mathbf{r},t) &= -\mathbf{S}(\mathbf{r},t) \end{align}
 \begin{align}\mathbf{E}(\mathbf{r},0) = 0,\qquad \mathbf{E}_{\Gamma} = \mathbf{E}(\mathbf{r}_b,t); & t>0\end{align}  
 where \\(\mathbf{r}\\) are the Cartesian coordinates, \\(\mu\\) is the magnetic permeability and \\(\sigma(\mathbf{r})\\) is the resistivity of the media. 
 
-
+If we  
 
 The proposed approach has been successfully demonstrated using two-dimensional \\(2-D\\) models. The appropriate \\(TE\\)-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary \\(q\\) domain, which is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit \\(q\\)-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain.
 
