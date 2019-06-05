@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# \\(1^{st}\\) things First!
+# First things First!
 
 <p align="center">
   <img src="images/books.jpg" width="280" height="200" />
