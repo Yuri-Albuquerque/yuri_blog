@@ -23,7 +23,7 @@ gem "jekyll-theme-leap-day", ">= 0.1.0"
 
 group :jekyll_plugins do
   gem "jekyll-feed", ">= 0.6"
-  gem "jekyll-sitemap" #, ~> 3.5.0"
+  gem "jekyll-sitemap", "~> 3.5.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
