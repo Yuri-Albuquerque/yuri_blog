@@ -8,8 +8,10 @@ gem "github-pages"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.7.3"
-
+gem "jekyll", ">= 3.7.4"
+gem "rubyzip", ">= 1.2.2"
+gem "ffi", ">= 1.9.24"
+gem "nokogiri", ">= 1.8.5"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-leap-day", "~> 0.1.0"
 
