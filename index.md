@@ -24,15 +24,15 @@ The diffusive \\(EM\\) field is known to have a unique integral representation i
 The electric field \\(\mathbf{E}(\mathbf{r},t)\\) in a homogeneous media,  can be described through the equation 
 
 \begin{align}\label{E}\nabla \times \nabla \times \mathbf{E}(\mathbf{r},t) + \mu\sigma(\mathbf{r})\frac{\partial }{\partial t}\mathbf{E}(\mathbf{r},t) &= -\mathbf{S}(\mathbf{r},t) \end{align}
-\begin{align}\mathbf{E}(\mathbf{r},0) = 0,\qquad \mathbf{E}_{\Gamma} = \mathbf{E}(\mathbf{r}_b,t); & t>0\end{align}  
+\begin{align}\mathbf{E}(\mathbf{r},0) = 0,\qquad \mathbf{E}_{\Gamma} = \mathbf{E}(\mathbf{r}_b,t); & \quad t>0\end{align}  
 where \\(\mathbf{r}\\) are the Cartesian coordinates, \\(\mu\\) is the magnetic permeability and \\(\sigma(\mathbf{r})\\) is the resistivity of the media. 
 
 If we set the wave field \\(\mathbf{U}(\mathbf{r},q)\\) as a solution hyperbolic differential equation
-\begin{align}\label{U}\frac{1}{\mathbf{c}^2(\mathbf{r},q)}\frac{\partial^2}{\partial q^2}\mathbf{U}(\mathbf{r},q)+\nabla \times \nabla \times \mathbf{U}(\mathbf{r},q) &= -\mathbf{F}(\mathbf,q)\end{align}
+\begin{align}\label{U}\frac{1}{\mathbf{c}^2(\mathbf{r},q)}\frac{\partial^2}{\partial q^2}\mathbf{U}(\mathbf{r},q)+\nabla \times \nabla \times \mathbf{U}(\mathbf{r},q) &= -\mathbf{F}(\mathbf{r},q)\end{align}
 \begin{align}\mathbf{U}(\mathbf{r},0) &= 0\end{align}
 \begin{align}\frac{\partial}{\partial q}\mathbf{U}(\mathbf{r},0) &= 0\end{align}
 \begin{align}\mathbf{U}\Bigg|_{\Gamma} &= \mathbf{U}(\mathbf{r}_b,q); \quad q>0 \end{align}
-where \\(\mathbf{c}(\mathbf{r},q) = \frac{1}{\sqrt{\mu\sigma(\mathbf{r})}}\\).
+where \\(\mathbf{c}(\mathbf{r},q) = \frac{1}{\sqrt{\mu\sigma(\mathbf{r})}}\\) and \\(q = \sqrt{t}\\) it is a time like variable.
 
 The proposed approach has been successfully demonstrated using two-dimensional \\(2-D\\) models. The appropriate \\(TE\\)-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary \\(q\\) domain, which is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit \\(q\\)-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain.
 
