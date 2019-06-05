@@ -29,7 +29,7 @@ theme: jekyll-theme-leap-day
 google_analytics: yuri albuquerque applied math electromagnetic image 
 plugins:
   - jekyll-feed
-  # - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-redirect-from
 gems: 
         - jekyll-sitemap
