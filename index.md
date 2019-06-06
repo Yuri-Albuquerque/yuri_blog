@@ -33,7 +33,7 @@ If we set the wave field \\(\mathbf{U}(\mathbf{r},q)\\) as a solution hyperbolic
 \begin{align}\frac{\partial}{\partial q}\mathbf{U}(\mathbf{r},0) &= 0\end{align}
 \begin{align}\mathbf{U}\Bigg|_{\Gamma} &= \mathbf{U}(\mathbf{r}_b,q); \quad q>0 \end{align}
 where \\(\mathbf{c}(\mathbf{r},q) = \frac{1}{\sqrt{\mu\sigma(\mathbf{r})}}\\) and \\(q = \sqrt{t}\\) it is a time like variable.
-Although not easy, however, it is possible to obtain the following equivalence between these two fields,
+Although not easy, it is possible to obtain the following equivalence between these two fields,
 \begin{equation}\label{equiv}\mathbf{E}(\mathbf{r},t) = \frac{1}{2\sqrt{\pi t^3}}\int_0^{\infty} qe^{-\frac{q^2}{4t}}\mathbf{U}(\mathbf{r},q)\;dq\end{equation}
 
 The proposed approach has been successfully demonstrated using two-dimensional \\(2-D\\) models <a href="http://repositorio.unicamp.br/handle/REPOSIP/325361">[ALBUQUERQUE, Yuri Flores (2016)]</a>. The appropriate \\(TE\\)-mode diffusion equation in the time domain for the electric field is initially transformed into a scalar wave equation in an imaginary \\(q\\) domain, which is a time-like variable. The corresponding scalar wave field is computed numerically using an explicit \\(q\\)-stepping technique. Standard finite-difference methods are used to approximate the fields, and absorbing boundary conditions are implemented. The computed wave field is then transformed back to the time domain. The result agrees fairly well with the solution computed directly in the time domain.
