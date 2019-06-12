@@ -1,9 +1,5 @@
- ---
-layout: default
----
-
+[Main][principal]
 # Lecture Notes
-
 ## terça, 11. junho 2019 04:03 
 ---
 
