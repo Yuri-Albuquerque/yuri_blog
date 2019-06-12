@@ -64,4 +64,4 @@ This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4
 
 <p>Albuquerque, Yuri Flores (2016), &#38;. <i>Electromagnetic Response of conductive media</i>. IMECC-Unicamp &#8217;Masters dissertation.</p>
 
-# [show me the math!](https://yuri-albuquerque.github.io/yuri_blog/EW)
+# [The Adjoint Method](https://yuri-albuquerque.github.io/yuri_blog/theAdjointMethod)
