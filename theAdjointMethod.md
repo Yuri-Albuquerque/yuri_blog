@@ -33,7 +33,7 @@ The term \\(-\partial_xfg_x^{-1}\\) is a row vector times a \\(n_x\times n_p\\) 
 thus, 
 
 \begin{align}
-g_x^{\mathsf{T}} \lambda &= -\partial_x f \nonumber
+g_x^{\mathsf{T}} \lambda &= -\partial_x f \label{adjointEq} 
 \end{align}
 
 **In terms of \\(\lambda\\) Eq. \\(\eqref{df}\\) turns to, \\(d_p f = \lambda^{\mathsf{T}}g_p\\).**
@@ -60,15 +60,15 @@ Another derivation is useful. Define the *Lagrangian*
  
 If we choose $\lambda$ as a solution of
 
-\begin{align }
-\partial_x g^{\mathsf{T}} \lambda = -\partial_x f
-\end{align }
+$$ \partial_x g^{\mathsf{T}} \lambda = -\partial_x f$$
 
 then we can avoid the need to compute $x_p$ in \eqref{df2}. This condition is exactly the adjoint equation \eqref{adjointEq}. What remains as the first derivation $d_p f = \lambda^{\mathsf{T}} g_p$. 
 <!-- <p align="center"> -->
 <!--   <img src="images/onda.gif" width="280" height="200" /> -->
 <!-- </p> -->
-{% include image.html url="https://media.giphy.com/media/phGElmSM4P0sg/giphy.gif" description="Later we'll show why this things are so important" %}
+<p align="center">
+{% include image.html url="https://media.giphy.com/media/phGElmSM4P0sg/giphy.gif" description="Later we'll show why this things are so important" % width="280" height="200"}
+</p>
 
 ---
 [Main][principal]
