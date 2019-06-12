@@ -1,21 +1,21 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-[//]: <> (A rotina acima deve ser incluida no inicio do texto em markdown p/ que ele reconheca os simbolos $ $ para formulas inline)
- 
+<!-- <script type="text/x-mathjax-config"> -->
+<!--   MathJax.Hub.Config({ -->
+<!--     tex2jax: { -->
+<!--       inlineMath: [ ['$','$'], ["\\(","\\)"] ], -->
+<!--       processEscapes: true -->
+<!--     } -->
+<!--   }); -->
+<!-- MathJax.Hub.Config({ -->
+<!--   TeX: { equationNumbers: { autoNumber: "AMS" } } -->
+<!-- }); -->
+<!-- </script> -->
+<!--  -->
+<!-- <script type="text/javascript" -->
+<!--     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> -->
+<!-- </script> -->
+<!--  -->
+<!-- [//]: <> (A rotina acima deve ser incluida no inicio do texto em markdown p/ que ele reconheca os simbolos $ $ para formulas inline) -->
+<!--   -->
  <style type="text/css">
 .centerImage
 {
