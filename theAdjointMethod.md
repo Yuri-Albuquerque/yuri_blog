@@ -67,7 +67,7 @@ then we can avoid the need to compute $x_p$ in \eqref{df2}. This condition is ex
 <!--   <img src="images/onda.gif" width="280" height="200" /> -->
 <!-- </p> -->
 <p align="center">
-{% include image.html url="https://media.giphy.com/media/phGElmSM4P0sg/giphy.gif" description="Later we'll show why this things are so important" % width="280" height="200"}
+{% include image.html url="https://media.giphy.com/media/phGElmSM4P0sg/giphy.gif" description="Later we'll show why this things are so important" width="280" height="200" %}
 </p>
 
 ---
