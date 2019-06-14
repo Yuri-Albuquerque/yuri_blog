@@ -64,9 +64,12 @@ $$ \partial_x g^{\mathsf{T}} \lambda = -\partial_x f$$
 
 then we can avoid the need to compute $x_p$ in \eqref{df2}. This condition is exactly the adjoint equation \eqref{adjointEq}. What remains as the first derivation $d_p f = \lambda^{\mathsf{T}} g_p$. 
 
-<p align="center">
-	 {% include image.html url="https://media.giphy.com/media/Q1aRmd8e90WIw/giphy.gif" description="Don'tLater we'll show why this things are so important" width="140" height="100" %}
-</p>
+{% include image.html url="https://media.giphy.com/media/Q1aRmd8e90WIw/giphy.gif" description="It will be clear why we are doing this accounts." width="70" height="50" %}
+
+In second approach the problem solver must
+> * evaluate $f(x,p)$
+> * solve $g(x,p)=0$
+> * compute the gradient $d_p f$  
 
 ---
 [Main][principal]
