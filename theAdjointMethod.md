@@ -62,7 +62,7 @@ If we choose $\lambda$ as a solution of
 
 $$ \partial_x g^{\mathsf{T}} \lambda = -\partial_x f$$
 
-then we can avoid the need to compute $x_p$ in \eqref{df2}. This condition is exactly the adjoint equation \eqref{adjointEq}. What remains as the first derivation $d_p f = \lambda^{\mathsf{T}} g_p$. 
+then we can avoid the need to compute $d_p x$ in \eqref{df2}. This condition is exactly the adjoint equation \eqref{adjointEq}. What remains as the first derivation $d_p f = \lambda^{\mathsf{T}} g_p$. 
 
 {% include image.html url="https://media.giphy.com/media/Q1aRmd8e90WIw/giphy.gif" description="It will be clear why we are doing this accounts." width="70" height="50" %}
 
@@ -70,6 +70,34 @@ In second approach the problem solver must
 > * evaluate $f(x,p)$
 > * solve $g(x,p)=0$
 > * compute the gradient $d_p f$  
+
+#### Problem Statement 
+Consider the problem
+ $$
+ \begin{align}
+ \underset{p}{\hbox{min}} \; F(x,p) &= \int^T_0 f(x,p,t)\label{mainProblem}\\
+ \hbox{subject to,} &\begin{cases} h(x,\dot{x},p,t) =0 \\
+ g(x(0),p) = 0
+ \end{cases}\nonumber
+ \end{align} 
+ $$
+ where, 
+ > $p$ is vector of unknown parameters,
+ > $x$ is a vector valued function,
+ > $h(x,\dot{x}, p, t)=0$ is an ODE in implicit form,
+ > and $g(x(p),p) = 0$ is the initial conditions.
+
+A gradiente-based optmization algorithm requires to calculate the total derivative
+
+$$
+\begin{align}
+d_p F(x,p) &= \int_0^T \partial_x f d_p x + \partial_p f\; dt \nonumber
+\end{align} 
+$$
+but, calculating $d_p x$ is difficult in most cases. 
+
+###### How to work around this problem?
+
 
 ---
 [Main][principal]
