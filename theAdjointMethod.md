@@ -75,7 +75,7 @@ In second approach the problem solver must
 Consider the problem
  $$
  \begin{align}
- \underset{p}{\hbox{min}} \; F(x,p) &= \int^T_0 f(x,p,t)\label{mainProblem}\\
+ \underset{p}{\hbox{min}} \; F(x,p) &= \int^T_0 f(x,p,t)\label{mainOptProblem}\\
  \hbox{subject to,} &\begin{cases} h(x,\dot{x},p,t) =0 \\
  g(x(0),p) = 0
  \end{cases}\nonumber
@@ -94,9 +94,22 @@ $$
 d_p F(x,p) &= \int_0^T \partial_x f d_p x + \partial_p f\; dt \nonumber
 \end{align} 
 $$
+
 but, calculating $d_p x$ is difficult in most cases. 
 
 ###### How to work around this problem?
+Let
+
+$$
+\begin{align}
+\mathcal{L}(x,p,\lambda,t)&\equiv \int_0^T f(x,p,t)+\lambda^{\mathsf{T}}h(x,\dot{x},p,t)\; dt +\mu^{\mathsf{T}}g(x(0),p)
+\end{align}
+$$
+
+be the Lagrangian corresponding to the optimization problem $\eqref{mainOptProblem}$.  
+
+
+
 
 
 ---
