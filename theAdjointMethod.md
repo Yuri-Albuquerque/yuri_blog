@@ -1,6 +1,5 @@
 [Main][principal]
 # Lecture Notes
-## terça, 11. junho 2019 04:03 
 ---
 
 ### The adjoint method 
@@ -102,7 +101,7 @@ Let
 
 $$
 \begin{align}
-\mathcal{L}(x,p,\lambda,t)&\equiv \int_0^T f(x,p,t)+\lambda^{\mathsf{T}}h(x,\dot{x},p,t)\; dt +\mu^{\mathsf{T}}g(x(0),p)\label{lagrangian}
+\mathcal{L}(x,p,\lambda,t)&\equiv \int_0^T f(x,p,t)+\lambda^{\mathsf{T}}h(x,\dot{x},p,t)\; dt +\mu^{\mathsf{T}}g(x(0),p)\nonumber
 \end{align}
 $$
 
@@ -114,7 +113,7 @@ So, one can computing
 
 $$
 \begin{align}
-d_p\mathcal{L} \equiv & \int_0^T\partial_x f d_p x + \partial_p f + \lambda^{\mathsf{T}}(\partial_x d d_p x +\partial_{\dot{x}}hd_p\dot{x} + \partial_p h)\; dt\nonumber\\
+d_p\mathcal{L} \equiv & \int_0^T\partial_x f d_p x + \partial_p f + \lambda^{\mathsf{T}}(\partial_x h d_p x +\partial_{\dot{x}}hd_p\dot{x} + \partial_p h)\; dt\nonumber\\
 & + \mu^{\mathsf{T}}(\partial_{x(0)}g d_p x(0)+\partial_p g)\label{dpL}
 \end{align}
 $$
@@ -131,7 +130,7 @@ Integrating by parts the term with $d_p\dot{x}$
 
 $$
 \begin{align}
-\int_0^T \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_p\dot{x} dt &= \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_px\bigg|_{0}^T -\int_0^T(\lambda^{\mathsf{T}}\partial_{\dot{x}}+\lambda^{\mathsf{T}}d_t \partial_{\dot{x}}h)d_px\; dt\nonumber
+\int_0^T \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_p\dot{x} dt &= \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_px\bigg|_{0}^T -\int_0^T(\dot{\lambda}^{\mathsf{T}}\partial_{\dot{x}}h+\lambda^{\mathsf{T}}d_t \partial_{\dot{x}}h)d_px\; dt\nonumber
 \end{align}
 $$
 
@@ -139,8 +138,8 @@ substituting in $\eqref{dpL}$
 
 $$
 \begin{align}
-d_p\mathcal{L} \equiv & \int_0^T [\partial_x f + \lambda^{\mathsf{T}}(\partial_x h -d_t \partial_{\dot{x}}h)-\dot{\lambda^{\mathsf{T}}}\partial_{\dot{x}}h]d_p x + \partial_{p}f + \lambda^{\mathsf{T}}\partial_p h\; dt \nonumber\\
-& + \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_p x\bigg|_{T} + (\lambda^{\mathsf{T}}\partial_{\dot{x}}h + \mu^{\mathsf{T}}g_{x(0)})\bigg|_{0} d_p x(0) + \mu^{\mathsf{T}}g_p\nonumber
+d_p\mathcal{L} \equiv & \int_0^T [\partial_x f + \lambda^{\mathsf{T}}(\partial_x h -d_t \partial_{\dot{x}}h)-\dot{\lambda}^{\mathsf{T}}\partial_{\dot{x}}h]d_p x + \partial_{p}f + \lambda^{\mathsf{T}}\partial_p h\; dt \nonumber\\
+& + \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_p x\bigg|_{T} + (-\lambda^{\mathsf{T}}\partial_{\dot{x}}h + \mu^{\mathsf{T}}g_{x(0)})\bigg|_{0} d_p x(0) + \mu^{\mathsf{T}}g_p\nonumber
 \end{align}
 $$
 
@@ -148,7 +147,7 @@ Setting $\lambda(T)=0$,
 
 $$
 \begin{align}
-\mu^{\mathsf{T}}=\lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}g^{-1}_{x(0)}$
+\mu^{\mathsf{T}}=\lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}g^{-1}_{x(0)} \nonumber
 \end{align}
 $$
 
@@ -156,11 +155,21 @@ and
 
 $$
 \begin{align}
-\partial_{x}f + \lambda^{\mathsf{T}}(\partial_x h-d_t\partial_{\dot{x}}h)=0 \nonumber
+\partial_{x}f + \lambda^{\mathsf{T}}(\partial_x h-d_t\partial_{\dot{x}}h) -\dot{\lambda}^{\mathsf{T}}\partial_{\dot{x}}h=0 \label{avoidpx}
 \end{align}
 $$
 
-we can avoid to calculate $d_px$ for all time $t>0$.  
+we can avoid to calculate $d_px$ for all time $t>0$.  Therefore, to compute dpF one can proceed as follows
+
+> 1. Calculate $\int_0^T h(x,\dot{x},p,t)=0$ with initials conditions $g(x(0),p)=0$
+> 2. Calculate $\eqref{avoidpx}$ for $\lambda$ from $t=T$ to $0$, with $\lambda(T)=0$
+> 3. Set
+>  $$
+> \begin{align}
+> d_p F =& f_p + \lambda^{\mathsf{T}}\partial_p h \; dt + \lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}g^{-1}_{x(0)}\partial_p g
+> \end{align}
+> $$
+
 
 ---
 [Main][principal]
