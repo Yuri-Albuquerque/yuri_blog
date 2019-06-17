@@ -144,7 +144,15 @@ d_p\mathcal{L} \equiv & \int_0^T [\partial_x f + \lambda^{\mathsf{T}}(\partial_x
 \end{align}
 $$
 
-Setting $\lambda(T)=0$, $\mu^{\mathsf{T}}=\lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}$ $g^{-1}_{x(0)}$ and
+Setting $\lambda(T)=0$, 
+
+$$
+\begin{align}
+\mu^{\mathsf{T}}=\lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}g^{-1}_{x(0)}$
+\end{align}
+$$
+
+and 
 
 $$
 \begin{align}
