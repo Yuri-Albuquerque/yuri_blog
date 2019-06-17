@@ -108,11 +108,51 @@ $$
 
 be the Lagrangian corresponding to the optimization problem $\eqref{mainOptProblem}$.  
 
-> where, $\lambda$ is a vector of 
+> where, the vector of *Lagrange* multipliers $\lambda(t)$ is a function of time and $\mu$ is vector of multipliers associated with initial conditions. 
 
+So, one can computing
 
+$$
+\begin{align}
+d_p\mathcal{L} \equiv & \int_0^T\partial_x f d_p x + \partial_p f + \lambda^{\mathsf{T}}(\partial_x d d_p x +\partial_{\dot{x}}hd_p\dot{x} + \partial_p h)\; dt\nonumber\\
+& + \mu^{\mathsf{T}}(\partial_{x(0)}g d_p x(0)+\partial_p g)\label{dpL}
+\end{align}
+$$
 
+and this comes from the fact that
 
+$$
+\begin{align}
+h\equiv 0, \qquad g\equiv 0, \hbox{ thus }\qquad d_p\mathcal{L} = d_p F.\nonumber
+\end{align}
+$$
+
+Integrating by parts the term with $d_p\dot{x}$
+
+$$
+\begin{align}
+\int_0^T \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_p\dot{x} dt &= \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_px\bigg|_{0}^T -\int_0^T(\lambda^{\mathsf{T}}\partial_{\dot{x}}+\lambda^{\mathsf{T}}d_t \partial_{\dot{x}}h)d_px\; dt\nonumber
+\end{align}
+$$
+
+substituting in $\eqref{dpL}$ 
+
+$$
+\begin{align}
+d_p\mathcal{L} \equiv & \int_0^T [\partial_x f + \lambda^{\mathsf{T}}(\partial_x h -d_t \partial_{\dot{x}}h)-\dot{\lambda^{\mathsf{T}}}\partial_{\dot{x}}h]d_p x + \partial_{p}f + \lambda^{\mathsf{T}}\partial_p h\; dt \nonumber\\
+& + \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_p x\bigg|_{T} + (\lambda^{\mathsf{T}}\partial_{\dot{x}}h + \mu^{\mathsf{T}}g_{x(0)})\bigg|_{0} d_p x(0) + \mu^{\mathsf{T}}g_p\nonumber
+\end{align}
+$$
+
+Setting $\lambda(T)=0$, $\mu^{\mathsf{T}}=\lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_0 g^{-1}_{x(0)}$ and
+
+$$
+\begin{align}
+\partial_{x}f + \lambda^{\mathsf{T}}(\partial_x h-d_t\partial_{\dot{x}}h)=0 \nonumber
+\end{align}
+$$
+
+we can avoid to calculate $d_px$ for all time $t>0$.  
 
 ---
 [Main][principal]
