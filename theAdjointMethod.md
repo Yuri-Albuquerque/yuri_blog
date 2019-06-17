@@ -101,7 +101,7 @@ Let
 
 $$
 \begin{align}
-\mathcal{L}(x,p,\lambda,t)&\equiv \int_0^T f(x,p,t)+\lambda^{\mathsf{T}}h(x,\dot{x},p,t)\; dt +\mu^{\mathsf{T}}g(x(0),p)\nonumber
+\mathcal{L}(x,p,\lambda,t)& := \int_0^T f(x,p,t)+\lambda^{\mathsf{T}}h(x,\dot{x},p,t)\; dt +\mu^{\mathsf{T}}g(x(0),p)\nonumber
 \end{align}
 $$
 
