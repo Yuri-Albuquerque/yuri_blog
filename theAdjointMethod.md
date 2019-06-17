@@ -102,11 +102,13 @@ Let
 
 $$
 \begin{align}
-\mathcal{L}(x,p,\lambda,t)&\equiv \int_0^T f(x,p,t)+\lambda^{\mathsf{T}}h(x,\dot{x},p,t)\; dt +\mu^{\mathsf{T}}g(x(0),p)
+\mathcal{L}(x,p,\lambda,t)&\equiv \int_0^T f(x,p,t)+\lambda^{\mathsf{T}}h(x,\dot{x},p,t)\; dt +\mu^{\mathsf{T}}g(x(0),p)\label{lagrangian}
 \end{align}
 $$
 
 be the Lagrangian corresponding to the optimization problem $\eqref{mainOptProblem}$.  
+
+> where, $\lambda$ is a vector of 
 
 
 
