@@ -164,7 +164,8 @@ we can avoid to calculate $d_px$ for all time $t>0$.  Therefore, to compute dpF 
 > 1. Calculate $\int_0^T h(x,\dot{x},p,t)=0$ with initials conditions $g(x(0),p)=0$.
 > 2. Calculate $\eqref{avoidpx}$ for $\lambda$ from $t=T$ to $0$, with $\lambda(T)=0$.
 > 3. Set
->  $$
+> 
+> $$
 > \begin{align}
 > d_p F =& f_p + \lambda^{\mathsf{T}}\partial_p h \; dt + \lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}g^{-1}_{x(0)}\partial_p g \nonumber
 > \end{align}
