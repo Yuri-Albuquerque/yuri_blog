@@ -113,7 +113,7 @@ So, one can computing
 
 $$
 \begin{align}
-d_p\mathcal{L} \equiv & \int_0^T\partial_x f d_p x + \partial_p f + \lambda^{\mathsf{T}}(\partial_x h d_p x +\partial_{\dot{x}}hd_p\dot{x} + \partial_p h)\; dt\nonumber\\
+d_p\mathcal{L} = & \int_0^T\partial_x f d_p x + \partial_p f + \lambda^{\mathsf{T}}(\partial_x h d_p x +\partial_{\dot{x}}hd_p\dot{x} + \partial_p h)\; dt\nonumber\\
 & + \mu^{\mathsf{T}}(\partial_{x(0)}g d_p x(0)+\partial_p g)\label{dpL}
 \end{align}
 $$
@@ -138,7 +138,7 @@ substituting in $\eqref{dpL}$
 
 $$
 \begin{align}
-d_p\mathcal{L} \equiv & \int_0^T [\partial_x f + \lambda^{\mathsf{T}}(\partial_x h -d_t \partial_{\dot{x}}h)-\dot{\lambda}^{\mathsf{T}}\partial_{\dot{x}}h]d_p x + \partial_{p}f + \lambda^{\mathsf{T}}\partial_p h\; dt \nonumber\\
+d_p\mathcal{L} = & \int_0^T [\partial_x f + \lambda^{\mathsf{T}}(\partial_x h -d_t \partial_{\dot{x}}h)-\dot{\lambda}^{\mathsf{T}}\partial_{\dot{x}}h]d_p x + \partial_{p}f + \lambda^{\mathsf{T}}\partial_p h\; dt \nonumber\\
 & + \lambda^{\mathsf{T}}\partial_{\dot{x}}h d_p x\bigg|_{T} + (-\lambda^{\mathsf{T}}\partial_{\dot{x}}h + \mu^{\mathsf{T}}g_{x(0)})\bigg|_{0} d_p x(0) + \mu^{\mathsf{T}}g_p\nonumber
 \end{align}
 $$
