@@ -167,12 +167,13 @@ we can avoid to calculate $d_px$ for all time $t>0$.  Therefore, to compute dpF 
 > 
 > $$
 > \begin{align}
-> d_p F =& f_p + \lambda^{\mathsf{T}}\partial_p h \; dt + \lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}g^{-1}_{x(0)}\partial_p g \nonumber
+> d_p F :=& f_p + \lambda^{\mathsf{T}}\partial_p h \; dt + \lambda^{\mathsf{T}}\partial_{\dot{x}}h\bigg|_{0}g^{-1}_{x(0)}\partial_p g \nonumber
 > \end{align}
 > $$
 
-
 ---
+
+
 [Main][principal]
 
 [principal]: https://yuri-albuquerque.github.io/yuri_blog
