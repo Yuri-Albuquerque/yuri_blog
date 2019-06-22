@@ -38,7 +38,7 @@ The video bellow is an instance of how electromagnetic data are collected in the
 See the prototype bellow.
 
 <p align="center">
-  <img src="images/onda.gif" width="280" height="200" />
+  <img src="https://yuri-albuquerque.github.io/yuri_blog/images/onda.gif" width="280" height="200" />
 </p>
 
 This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4(\Omega m)^{-1}\\) immersed in a medium of electrical conductivity \\(\sigma = 0.1(\Omega m)^{-1}\\). The adopted model have a variation in the \\(x\\) position of ́\\(0 m\\) to  \\(500 m\\) and depth at the \\(z\\) position of \\(0 m\\) to \\(500 m\\). A circular cylinder centered at point \\(x = 250 m\\) and \\(z = 170 m\\), and the source of the pulse is located at \\((250 m, 0 m)\\).
