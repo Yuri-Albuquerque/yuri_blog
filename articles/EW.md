@@ -53,4 +53,4 @@ This image shows a circular cylinder of electrical conductivity \\(\sigma  = 0.4
 
 [principal]: https://yuri-albuquerque.github.io/yuri_blog
 
-## [The Adjoint Method](https://yuri-albuquerque.github.io/yuri_blog/theAdjointMethod)
+## [The Adjoint Method](https://yuri-albuquerque.github.io/yuri_blog/articles/theAdjointMethod)

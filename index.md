@@ -18,5 +18,5 @@ Anyway, I hope you like the texts! :blush:
 
 ---
 
-## [Imaging Methods With Electromagnetic Data](https://yuri-albuquerque.github.io/yuri_blog/EW)
-## [The Adjoint Method](https://yuri-albuquerque.github.io/yuri_blog/theAdjointMethod)
+## [Imaging Methods With Electromagnetic Data](https://yuri-albuquerque.github.io/yuri_blog/articles/EW)
+## [The Adjoint Method](https://yuri-albuquerque.github.io/yuri_blog/articles/theAdjointMethod)
