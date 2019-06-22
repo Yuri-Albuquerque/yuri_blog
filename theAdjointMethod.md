@@ -175,6 +175,7 @@ we can avoid to calculate $d_px$ for all time $t>0$.  Therefore, to compute dpF 
 
 
 [Main][principal]
+## [Imaging Methods With Electromagnetic Data](https://yuri-albuquerque.github.io/yuri_blog/EW)
 
 [principal]: https://yuri-albuquerque.github.io/yuri_blog
 [@bradley2010pde]: https://cs.stanford.edu/~ambrad/adjoint_tutorial.pdf "Bradley, Andrew M. "Pde-constrained optimization and the adjoint method." (2010)."
