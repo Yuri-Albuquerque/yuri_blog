@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-gem "github-pages"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -10,8 +9,10 @@ gem "github-pages"
 # Happy Jekylling!
 gem "jekyll", ">= 3.7.4"
 gem "rubyzip", ">= 1.2.2"
-gem "ffi", ">= 1.9.24"
-gem "nokogiri", ">= 1.8.5"
+gem "ffi", "~> 1.15.0"
+gem "nokogiri", ">= 1.10.4"
+gem "kramdown", ">= 2.3.0"
+gem "commonmarker", ">= 0.23.4"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-leap-day", ">= 0.1.0"
 
@@ -23,13 +24,8 @@ gem "jekyll-theme-leap-day", ">= 0.1.0"
 
 group :jekyll_plugins do
   gem "jekyll-feed", ">= 0.6"
-  gem "jekyll-sitemap", "~> 3.5.0"
+  gem "jekyll-sitemap", "~> 1.4"
 end
-gem "jekyll-scholar"
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-gem "github-pages"
